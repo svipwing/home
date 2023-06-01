@@ -1,0 +1,36 @@
+html{
+  width:100%;
+  height:100%;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("http://134.175.59.90:82/home/bg.webp");
+  width:100%;
+  height:100%;
+} 
+input{
+  color: black;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height:40px;
+  width: 60%;
+}
+.btn{
+  border-radius: 10px;
+  height:42px;
+  width:60px;
+  color:white;
+  background-color:#4c6cf4;
+  border:1;
+}
+img{
+  width:50px;
+  height:30px;
+}
+.ssyq{border:0;}

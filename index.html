@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>青芒起始页</title>
+ 
+</head>
+<body onload="time()">
+
+<script src='time.js'></script>
+<script src ='one_msg.js'></script>
+<script src='ssyq.js'></script>
+
+<center>
+<h2 style="color:white;" id="time">00:00:00</h2>
+<br>
+<p style='margin-bottom:35px;'><input type="text" id="word" size="60"><button class="btn" onclick="go()">搜索</button></p>
+
+<b id="text"></b>
+
+<hr style='margin-top:35px;margin-bottom:35px;'>
+
+<big>
+<b>搜索引擎：</b>
+</big>
+
+<button id='baidu' class="ssyq" style="background-color:yellow;" onclick="baidu()"><img src="https://www.baidu.com/favicon.ico" /></button>
+<button id='bing' class="ssyq" onclick="bing()"><img src="https://bing.com/favicon.ico" /></button>
+
+<hr style='margin-top:35px;margin-bottom:35px;'>
+
+<h6><b>&copy;2022~2099 技术云网页开发团队版权所有！</b></h6>
+
+</center>
+</body>
+</html>

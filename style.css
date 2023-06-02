@@ -7,7 +7,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:url("http://134.175.59.90:82/home/bg.webp");
+  background-image:url("bg.webp");
   width:100%;
   height:100%;
 } 
